@@ -42,9 +42,9 @@ function setup(){
     
     //log6 = new Log(230,180,80,PI/2);
     
-    bird = new Bird(100,100);
+    bird = new Bird(200,50);
 
-    sling= new Slingshot(bird.body,{x:200, y:100});
+    sling= new Slingshot(bird.body,{x:200, y:50});
 }
 
 function draw(){
